@@ -31,7 +31,6 @@ class Wind{
 
     //Drawks the style of the wind
     renderWind(){
-        stroke(this.lifeTime);
         noStroke();
         fill(100,100,250);
         ellipse(this.pos.x, this.pos.y, this.r*2);
@@ -39,6 +38,6 @@ class Wind{
     
     //Gives this info to the emitter.
     finished(){
-        return(this.lifeTime < 0)
+        return(this.lifeTime < 0);
     }
 }

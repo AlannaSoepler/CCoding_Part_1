@@ -1,4 +1,3 @@
-//Set the Screen Size.
 let screenWidth = 500;
 let screenHeight = 500;
 // emoty variable 
@@ -73,8 +72,7 @@ function draw(){
         //Craete a pipe after x amount of frames.
         pipes.push(new Pipe());
     }
-
-    
+   
 }
 
 function gameOver(){
